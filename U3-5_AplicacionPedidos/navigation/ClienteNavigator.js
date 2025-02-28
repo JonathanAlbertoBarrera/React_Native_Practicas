@@ -1,13 +1,20 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { Feather, MaterialIcons } from "@expo/vector-icons";
 import InicioScreen from "../screens/cliente/InicioScreen";
-import MisPedidosScreen from "../screens/cliente/MisPedidosScreen";
+import PedidosScreen from "../screens/cliente/MisPedidosScreen";
 import PerfilScreen from "../screens/cliente/PerfilScreen";
-import { Feather } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
 
 const ClienteNavigator = () => (
-  <Tab.Navigator screenOptions={{ headerShown: false }}>
+  <Tab.Navigator
+    screenOptions={{
+      headerShown: false,
+      tabBarStyle: { backgroundColor: "#FFA726" },
+      tabBarActiveTintColor: "#fff",
+      tabBarInactiveTintColor: "#FFD180",
+    }}
+  >
     <Tab.Screen 
       name="Inicio" 
       component={InicioScreen} 
@@ -15,8 +22,8 @@ const ClienteNavigator = () => (
     />
     <Tab.Screen 
       name="Mis Pedidos" 
-      component={MisPedidosScreen} 
-      options={{ tabBarIcon: ({ color }) => <Feather name="shopping-cart" size={24} color={color} /> }} 
+      component={PedidosScreen} 
+      options={{ tabBarIcon: ({ color }) => <MaterialIcons name="receipt-long" size={24} color={color} /> }} 
     />
     <Tab.Screen 
       name="Perfil" 
@@ -27,3 +34,4 @@ const ClienteNavigator = () => (
 );
 
 export default ClienteNavigator;
+
