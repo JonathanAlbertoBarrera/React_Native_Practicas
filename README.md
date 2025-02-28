@@ -10,11 +10,11 @@ La navegación es mediante Bottom Tab Navigation
 
 ### Imágenes del Proyecto
 
-![Splash screen (Pantalla de bienvenida al cargar la app)](imagenes/AppPedidosSplashScreen.jpg)
-![Login](imagenes/AppPedidosLoginScreen.jpg)
-![Pantalla de inicio del cliente](imagenes/AppPedidosInicioCliente.jpg)
-![Pantalla del repartidor con sus pedidos](imagenes/AppPedidosRepartidor1.jpg)
-![Pantalla del repartidor con mapa de un pedido](imagenes/AppPedidosRepartidor2.jpg)
-![Pantalla de perfil](imagenes/AppPedidosPerfil.jpg)
+<img src="imagenes/AppPedidosSplashScreen.jpg" alt="Splash screen (Pantalla de bienvenida al cargar la app)" width="300"/>
+<img src="imagenes/AppPedidosLoginScreen.jpg" alt="Login" width="300"/>
+<img src="imagenes/AppPedidosInicioCliente.jpg" alt="Pantalla de inicio del cliente" width="300"/>
+<img src="imagenes/AppPedidosRepartidor1.jpg" alt="Pantalla del repartidor con sus pedidos" width="300"/>
+<img src="imagenes/AppPedidosRepartidor2.jpg" alt="Pantalla del repartidor con mapa de un pedido" width="300"/>
+<img src="imagenes/AppPedidosPerfil.jpg" alt="Pantalla de perfil" width="300"/>
 
 
