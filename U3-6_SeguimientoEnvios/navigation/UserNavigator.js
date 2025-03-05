@@ -8,14 +8,14 @@ const Tab = createBottomTabNavigator();
 const UserNavigator = () => (
   <Tab.Navigator screenOptions={{ headerShown: true }}>
     <Tab.Screen 
-      name="Rastrear Paquete" 
-      component={RastrearPedido} 
-      options={{ tabBarIcon: ({ color }) => <Feather name="home" size={24} color={color} /> }} 
+    name="Rastrear Paquete" 
+    component={RastrearPedido} 
+    options={{ tabBarIcon: ({ color }) => <Feather name="map" size={24} color={color} /> }} 
     />
     <Tab.Screen 
-      name="Mi Historial" 
-      component={HistorialMisEnvios} 
-      options={{ tabBarIcon: ({ color }) => <Feather name="settings" size={24} color={color} /> }} 
+    name="Mi Historial" 
+    component={HistorialMisEnvios} 
+    options={{ tabBarIcon: ({ color }) => <Feather name="archive" size={24} color={color} /> }} 
     />
   </Tab.Navigator>
 );

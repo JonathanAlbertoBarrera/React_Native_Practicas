@@ -10,12 +10,12 @@ const AdminNavigator = () => (
     <Tab.Screen 
       name="Paquetes en Tránsito" 
       component={PaquetesTransito} 
-      options={{ tabBarIcon: ({ color }) => <Feather name="home" size={24} color={color} /> }} 
+      options={{ tabBarIcon: ({ color }) => <Feather name="package" size={24} color={color} /> }} 
     />
     <Tab.Screen 
       name="Actualizar Paquetes" 
       component={ActualizarPaquetes} 
-      options={{ tabBarIcon: ({ color }) => <Feather name="settings" size={24} color={color} /> }} 
+      options={{ tabBarIcon: ({ color }) => <Feather name="refresh-cw" size={24} color={color} /> }} 
     />
   </Tab.Navigator>
 );
