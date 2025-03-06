@@ -4,6 +4,17 @@ Practicas de creación de apps en React Native, algunas con consumo de APIs
 
 ## Proyectos
 
+# U3-7_ReservacionCitasPokemon
+Aplicación para agendar citas para centro pokemon. Consumiendo la pokeApi. Navegación: Bottom Tab Navigation.
+
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="imagenes/AppCitasPokemon_1_Login.jpg" alt="Pantalla login" style="width: 150px; margin: 5px;"/>
+  <img src="imagenes/AppCitasPokemon_2_Servicios.jpg" alt="Pantalla servicios" style="width: 150px; margin: 5px;"/>
+   <img src="imagenes/AppCitasPokemon_4_MiPerfil.jpg" alt="Pantalla mi perfil cliente" style="width: 150px; margin: 5px;"/>
+  <img src="imagenes/AppCitasPokemon_3_CitasAgendadas.jpg" alt="Pantalla citas agendadas -> Admin" style="width: 150px; margin: 5px;"/>
+  <img src="imagenes/AppCitasPokemon_5_DetallePokemon.jpg" alt="Pantalla del admin detalles pokemon" style="width: 150px; margin: 5px;"/>
+</div>
+
 # U3-6_SeguimientoEnvios
 Aplicación para seguimiento de pedidos. Administradir y usuario. La navegación es mediante Bottom Tab Navigation. Uso de splash screen.
 
