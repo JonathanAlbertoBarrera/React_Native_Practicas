@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "U3-9_AplicacionCocteleria",
+    "slug": "U3-9_AplicacionCocteleria",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cocteleria.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/cocteleria.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
